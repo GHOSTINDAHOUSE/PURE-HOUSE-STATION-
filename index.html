@@ -1,109 +1,230 @@
-<!index.html
-<html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <title>HOUSE THING.MP3</title>
-</head>
-<body>
-  <h1>HOUSE THING</h1>
-  <audio controls>
-    <source src="https://www.dropbox.com/scl/fi/ox5uv6kl7jpjnhfa07zhm/HOUSE-THING.MP3.mp3?rlkey=yq0mlccbyapadzuwhw0i8otts&dl=1" type="audio/mpeg">
-    Il tuo browser non supporta l’audio.
-  </audio>
-</body>
-</html>
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <title>HOUSE THING</title>
-  <style>
-    body {
-      background-color: #000000; /* sfondo nero */
-      color: #43167e;            /* testo bianco */
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 50px;
-    }
-    audio {
-      margin-top: 20px;
-    }
-    h1 {
-      font-size: 2.5em;
-      color: #000000; /* titolo rosso da DJ */
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PURE HOUSE STATION - GHOST INDA HOUSE</title>
+    <style>
+        /* RESET E STILE GENERALE */
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+        }
+        h1 {
+            font-size: 3rem;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+            margin: 0;
+        }
+        .blue-tech {
+            color: #0077ff; 
+            text-shadow: 0 0 25px rgba(0, 119, 255, 0.7);
+        }
+
+        /* LOGO TONDO GHOST */
+        .bio-icon {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .bio-icon img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #0077ff;
+            box-shadow: 0 0 20px rgba(0, 119, 255, 0.5);
+        }
+
+        .container {
+            max-width: 800px;
+            width: 90%;
+            padding-bottom: 50px;
+        }
+
+        .bio-section {
+            border-left: 4px solid #0077ff;
+            background: #050505;
+            padding: 30px;
+            margin-bottom: 40px;
+        }
+
+        .tracks-header {
+            color: #0077ff;
+            text-transform: uppercase;
+            border-bottom: 1px solid #222;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+            letter-spacing: 3px;
+        }
+
+        /* STILE SCHEDA CANZONE */
+        .track-item {
+            display: flex;
+            align-items: center;
+            background: #0a0a0a;
+            border: 1px solid #1a1a1a;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            transition: 0.3s;
+        }
+        .track-item:hover {
+            border-color: #0077ff;
+        }
+
+        /* BOX DONAZIONE */
+        .support-box {
+            border: 2px solid #0077ff;
+            padding: 30px;
+            text-align: center;
+            background: #050505;
+            border-radius: 12px;
+            margin-top: 40px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .donation-options {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 25px;
+            flex-wrap: wrap;
+        }
+        .btn-donate {
+            background: transparent;
+            color: #0077ff;
+            border: 1px solid #0077ff;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: 0.3s;
+        }
+        .btn-donate:hover {
+            background: #0077ff;
+            color: #fff;
+            box-shadow: 0 0 15px #0077ff;
+        }
+    </style>
 </head>
 <body>
 
-<!DOCTYPE html>
-<html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <title>HOUSE THING</title>
-  <style>
-    body {
-      background-image: url('./GHOST\ INDA\ HOUSE.jpg'); /* la tua immagine */
-      background-size: cover;      /* copre tutto lo schermo */
-      background-position: center; /* centrata */
-      color: #efeff0;              /* testo rosa-rosso */
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 50px;
-    }
-    h1 {
-      font-size: 3em;
-      color: #f3f3f7; /* titolo rosso acceso */
-      margin-bottom: 20px;
-    }
-    p {
-      font-size: 1.5em;
-      color: #e3e9eb; /* testo rosa-rosso */
-      margin-bottom: 40px;
-    }
-    audio {
-      margin-top: 20px;
-    }
-  </style>
-</head>
-<body>
+    <header>
+        <h1>PURE HOUSE <span class="blue-tech">STATION</span></h1>
+    </header>
 
-<!index.html
-<html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <title></title>
-</head>
-<body>
-  <h1> CRAZY HOUSE </h1>
-  <audio controls>
-    <source src="https://www.dropbox.com/scl/fi/oh5hpezz39d7bt95755q2/CRAZY-HOUSE-online-audio-converter.com.mp3?rlkey=yt1jgmfkgk4zs6l3m9yz8s4xu&dl=1" type="audio/mpeg">
-    Il tuo browser non supporta l’audio.
-  </audio>
-</body>
-</html>
+    <div class="container">
+        
+        <!-- LOGO -->
+        <div class="bio-icon">
+            <img src="logo.jpg..jpg" alt="GHOST INDA HOUSE Logo"> 
+        </div>
+<!-- TUA BIO COMPLETA -->
+<section class="bio-section" style="border-left: 4px solid #0077ff; background: #050505; padding: 30px; margin-bottom: 40px;">
+    <h2 style="color: #0077ff; text-transform: uppercase;">The Producer</h2>
+    <p style="color: #ffffff; line-height: 1.6;">
+        <strong>Stage Name:</strong> GHOST INDA HOUSE<br>
+        <strong>Real Name:</strong> Raffaele Rullo<br><br>
+        Independent producer and DJ driven by a passion for pure House music. 
+        Engineering the evolution of the beat.<br><br>
+       "If you support me, you will help me improve my equipment and studio quality to bring you even better music."
+    </p>
+</section>
+
+        <h2 class="tracks-header">Music Gallery</h2>
+
+        <!-- TRACCIA 1: DO YOU LIKE ME -->
+        <div class="DO YOU LIKE ME">
+            <div style="flex-shrink: 0; margin-right: 20px;">
+                <img src="DO YOU LIKE YOU LIKE ME.jpg" alt="Cover" style="width: 150px; height: 150px; border-radius: 10px; object-fit: cover; border: 2px solid #008cff;">
+            </div>
+            <div style="flex-grow: 1;">
+                <h3 style="margin: 0 0 10px 0; color: #008cff; font-weight: 900; font-size: 28px; text-transform: uppercase;">
+                    DO YOU LIKE ME
+                </h3>
+                <p style="margin: 0 0 15px 0; color: #ffffff; font-size: 12px; line-height: 1.5; text-transform: uppercase;">
+                    PLEASE FOLLOW ME SUPPORT ME ON SOCIAL LIKE OR SHARE VIDEO OR AUDIO THANKS FOR LISTENING O WHATCHING TITLE SONG DO YOU LIKE YOU LIKE ME COMPOSER GHOST INDA HOUSE ARTIST GHOST INDA HOUSE REAL NAME RAFFAELE RULLO YOUTUBE INSTAGRAM FACEBOOK TIKTOK GHOST INDA HOUSE MI ACCOUNT SOCIAL INSTAGRAM INSTAGRAM.COM/RAFFAELE_RULLOCLICK FACEBOOK FACEBOOK.COM/RAFFYTCOD.CLICK SOUNDCLOUD SOUNDCLOUD.COM/DJRAFFMUSICRULLO2-RULLO?UTM_SOURCE=CLIPBOARD&UTM_MEDIUM=TEXT&UTM_CAMPAIGN=SOCIAL_SHARING TIKTOK TIKTOK.COM/@GHOSTINDAHOUSE34 WWW.YOUTUBE.COM/@GHOSTINDAHOUSE34
+                </p>
+                <audio controls src="DO YOU LIKE YOU LIKE ME.mp3" style="width: 100%; height: 40px;"></audio>
+            </div>
+        </div>
+
+        
+        <!-- TRACCIA 2: MOVING KEEP DANCE -->
+        <div class="MOVING KEEP DANCE">
+            <div style="flex-shrink: 0; margin-right: 20px;">
+                <img src="MOVING KEEP DANCE.jpg" alt="Cover" style="width: 150px; height: 150px; border-radius: 10px; object-fit: cover; border: 2px solid #008cff;">
+            </div>
+            <div style="flex-grow: 1;">
+                <h3 style="margin: 0 0 10px 0; color: #008cff; font-weight: 900; font-size: 28px; text-transform: uppercase;">
+                    MOVING KEEP DANCE
+                </h3>
+                <p style="margin: 0 0 15px 0; color: #ffffff; font-size: 12px; line-height: 1.5; text-transform: uppercase;">
+                    PLEASE FOLLOW ME SUPPORT ME ON SOCIAL LIKE OR SHARE VIDEO OR AUDIO THANKS FOR LISTENING O WHATCHING TITLE SONG MOVING KEEP DANCE COMPOSER GHOST INDA HOUSE ARTIST GHOST INDA HOUSE REAL NAME RAFFAELE RULLO YOUTUBE INSTAGRAM FACEBOOK TIKTOK GHOST INDA HOUSE MI ACCOUNT SOCIAL INSTAGRAM INSTAGRAM.COM/RAFFAELE_RULLOCLICK FACEBOOK FACEBOOK.COM/RAFFYTCOD.CLICK SOUNDCLOUD SOUNDCLOUD.COM/DJRAFFMUSICRULLO2-RULLO?UTM_SOURCE=CLIPBOARD&UTM_MEDIUM=TEXT&UTM_CAMPAIGN=SOCIAL_SHARING TIKTOK TIKTOK.COM/@GHOSTINDAHOUSE34 WWW.YOUTUBE.COM/@GHOSTINDAHOUSE34
+                </p>
+                <audio controls src="MOVING KEEP DANCE.mp3.mp3" style="width: 100%; height: 40px;"></audio>
+            </div>
+        </div>
+
+        
+        <!-- TRACCIA 3: PRESSURE FEEL -->
+        <div class="PRESSURE FEEL">
+            <div style="flex-shrink: 0; margin-right: 20px;">
+                <img src="PRESSURE FEEL.png" alt="Cover" style="width: 150px; height: 150px; border-radius: 10px; object-fit: cover; border: 2px solid #008cff;">
+            </div>
+            <div style="flex-grow: 1;">
+                <h3 style="margin: 0 0 10px 0; color: #008cff; font-weight: 900; font-size: 28px; text-transform: uppercase;">
+                    PRESSURE FEEL
+                </h3>
+                <p style="margin: 0 0 15px 0; color: #ffffff; font-size: 12px; line-height: 1.5; text-transform: uppercase;">
+                    PLEASE FOLLOW ME SUPPORT ME ON SOCIAL LIKE OR SHARE VIDEO OR AUDIO THANKS FOR LISTENING O WHATCHING TITLE SONG PRESSURE FEEL COMPOSER GHOST INDA HOUSE ARTIST GHOST INDA HOUSE REAL NAME RAFFAELE RULLO YOUTUBE INSTAGRAM FACEBOOK TIKTOK GHOST INDA HOUSE MI ACCOUNT SOCIAL INSTAGRAM INSTAGRAM.COM/RAFFAELE_RULLOCLICK FACEBOOK FACEBOOK.COM/RAFFYTCOD.CLICK SOUNDCLOUD SOUNDCLOUD.COM/DJRAFFMUSICRULLO2-RULLO?UTM_SOURCE=CLIPBOARD&UTM_MEDIUM=TEXT&UTM_CAMPAIGN=SOCIAL_SHARING TIKTOK TIKTOK.COM/@GHOSTINDAHOUSE34 WWW.YOUTUBE.COM/@GHOSTINDAHOUSE34
+                </p>
+                <audio controls src="PRESSURE FEEL.mp3" style="width: 100%; height: 40px;"></audio>
+            </div>
+        </div>
+
+        
 
 
- <h1> HOUSE CLUB </h1>
-  <audio controls>
-    <source src="https://www.dropbox.com/scl/fi/v2svppd1r7fujns3v603k/HOUSE-CLUB-online-audio-converter.com.mp3?rlkey=qcvkqx90s3j822hu1yb7mnen5&dl=1" type="audio/mpeg">
-    Il tuo browser non supporta l’audio.
-  </audio>
-</body>
-</html>
+        <!-- SEZIONE DONAZIONI -->
+        <div class="support-box">
+            <h3>Support the Evolution</h3>
+            <p>Support the project to upgrade the studio hardware.</p>
+            <div class="donation-options">
+                <a href="https://paypal.me/GHOSTINDAHOUSE34 " class="btn-donate">Donate 5€</a>
+                <a href="https://paypal.me/GHOSTINDAHOUSE34 " class="btn-donate">Donate 10€</a>
+                <a href="https://paypal.me/GHOSTINDAHOUSE34 " class="btn-donate">Donate 20€</a>
+            </div>
+        </div>
 
+        <h2 class="tracks-header" style="margin-top: 60px;">DJ Sets & Videos</h2>
 
-<!index.html
-<html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <title></title>
-</head>
-<body>
-  <h1>  HOUSE EXSPERIMENT2004 </h1>
-  <audio controls>
-    <source src="https://www.dropbox.com/scl/fi/lj1smae4tg8tc3ekh8854/HOUSE-EXSPERIMENTS2004-online-audio-converter.com.mp3?rlkey=hc1ao2q0v2f22vnd75xag8ix2&dl=1 " type="audio/mpeg">
-    Il tuo browser non supporta l’audio.
-  </audio>
+        <!-- SEZIONE VIDEO DJ SETS -->
+        <div class="video-wrapper">
+            <div class="video-box" style="margin-bottom: 30px; border: 2px solid #008cff; border-radius: 10px; overflow: hidden;">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/Bk5BhqyapFE?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-box" style="margin-bottom: 30px; border: 2px solid #008cff; border-radius: 10px; overflow: hidden;">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/YtebsqVzHEI?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-box" style="margin-bottom: 30px; border: 2px solid #008cff; border-radius: 10px; overflow: hidden;">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/ayiArQO_cSE?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </div> <!-- Fine Container -->
+
 </body>
 </html>
